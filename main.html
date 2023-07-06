@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form>
+	<form action="/submit">
 		<fieldset>
 		<label for="name">Name</label> 
 			<input minlength="3" maxlength="50" required id="name" type="text">
@@ -29,6 +29,7 @@
 		<label for="likeness">Likeness (1-100):</label>
   <input type="range" id="likeness" name="likeness" min="1" max="100">
 			</fieldset>
+		<button type="submit">Submit</button>
 	</form>
 	
     <script type="text/javascript" src="./script.js">
