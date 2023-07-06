@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form action="/submit">
+	<form action="/submit" method="get">
 		<fieldset>
 		<label for="name">Name</label> 
 			<input minlength="3" maxlength="50" required id="name" type="text">
@@ -20,7 +20,7 @@
 			</fieldset>
 		<fieldset>
 		 <label for="favColor">Favorite Color:</label>
-  <select id="favColor" name="favColor" required>
+  <input type="color" select id="favColor"  name="favColor" required>
     <option value="red">Red</option>
     <option value="blue">Blue</option>
     <option value="green">Green</option>
